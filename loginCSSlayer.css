@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #F0FFFF;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#36454F, #28282B);
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #DAF7A6;
+}
+
+
+.loginform{
+    width: 360px;
+    height: 520px;
+    margin: auto;
+    background-color: #ddf5f5;
+    border-radius: 3px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+    padding-top: 15px;
+    
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    border: 2px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+  width: 310px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #1434A4;
+  color: #F9FBF9;
+  font-size: 18px;
+  cursor: pointer; 
+}
+.nonacc{
+    text-align: center;
+    color: #0f0f0f;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.nonacc a{
+    color: #0437F2;
+}
